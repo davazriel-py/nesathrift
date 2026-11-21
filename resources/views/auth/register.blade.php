@@ -16,7 +16,7 @@
 
     <div>
         <label class="block text-sm font-medium mb-1">Email UNESA</label>
-        <input type="email" name="email" value="{{ old('email') }}" placeholder="nama.nim@mhs.unesa.ac.id" required
+        <input type="email" name="email" value="{{ old('email') }}" placeholder="nim@mhs.unesa.ac.id" required
                class="w-full rounded-lg border border-slate-300 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500">
         @error('email') <p class="text-red-600 text-sm mt-1">{{ $message }}</p> @enderror
     </div>
